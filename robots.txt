@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dickdoof.github.io/sitemap.xml
