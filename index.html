@@ -4,67 +4,193 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daniel Vöckler – CTO, Founder & Enterprise Architect</title>
-<meta name="description" content="Daniel Vöckler, CTO, founder and enterprise architect in Basel. Builder of finHero (Stripe to DATEV export), SepaHeld (SEPA direct debit via GoCardless) and NPS-Hero.">
+<meta name="description" content="Daniel Vöckler, CTO, founder and enterprise architect in Basel with 20+ years in SaaS, fintech and pharma. Builder of finHero, SepaHeld, NPS-Hero and Planning Poker Online.">
 <link rel="canonical" href="https://dickdoof.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Daniel Vöckler – CTO, Founder & Enterprise Architect">
+<meta property="og:description" content="20+ years in SaaS, fintech and pharma. Builder of finHero, SepaHeld, NPS-Hero and Planning Poker Online.">
+<meta property="og:url" content="https://dickdoof.github.io/">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Daniel Vöckler","jobTitle":"CTO, Founder & Enterprise Architect","address":{"@type":"PostalAddress","addressLocality":"Basel","addressCountry":"CH"},"url":"https://dickdoof.github.io/","sameAs":["https://github.com/dickdoof"],"affiliation":[{"@type":"Organization","name":"finHero","url":"https://fin-hero.de/"},{"@type":"Organization","name":"SepaHeld","url":"https://sepaheld.com/"},{"@type":"Organization","name":"NPS-Hero","url":"https://www.nps-hero.com/"}]}
+{"@context":"https://schema.org","@type":"Person","name":"Daniel Vöckler","jobTitle":"CTO, Founder & Enterprise Architect","address":{"@type":"PostalAddress","addressLocality":"Basel","addressCountry":"CH"},"url":"https://dickdoof.github.io/","sameAs":["https://www.linkedin.com/in/daniel-voeckler","https://github.com/dickdoof"],"knowsAbout":["Software Architecture","Domain-Driven Design","Apache Kafka","Event-Driven Architecture","Kubernetes","AWS","Fintech","SaaS"],"affiliation":[{"@type":"Organization","name":"finHero","url":"https://fin-hero.de/"},{"@type":"Organization","name":"SepaHeld","url":"https://sepaheld.com/"},{"@type":"Organization","name":"NPS-Hero","url":"https://www.nps-hero.com/"},{"@type":"Organization","name":"Planning Poker Online","url":"https://planningpokeronline.org/"}]}
 </script>
 <style>
-:root{--bg:#fff;--fg:#111827;--muted:#6b7280;--line:#e5e7eb;--accent:#059669}
-@media (prefers-color-scheme:dark){:root{--bg:#0b0f14;--fg:#e5e7eb;--muted:#9ca3af;--line:#1f2937;--accent:#34d399}}
+:root{--bg:#fff;--fg:#111827;--muted:#6b7280;--line:#e5e7eb;--card:#f9fafb;--accent:#059669;--chip:#ecfdf5;--chipfg:#065f46}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0f14;--fg:#e5e7eb;--muted:#9ca3af;--line:#1f2937;--card:#111827;--accent:#34d399;--chip:#052e24;--chipfg:#a7f3d0}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-main{max-width:720px;margin:0 auto;padding:48px 16px 64px}
-h1{font-size:2rem;line-height:1.2;margin:0 0 4px}
-h2{font-size:1.25rem;margin:40px 0 8px}
+main{max-width:820px;margin:0 auto;padding:48px 16px 64px}
+h1{font-size:2.1rem;line-height:1.2;margin:0 0 4px}
+h2{font-size:1.3rem;margin:48px 0 12px}
+h3{font-size:1.05rem;margin:0 0 6px}
+p{margin:0 0 12px}
 .muted{color:var(--muted)}
 a{color:var(--accent)}
-.card{border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
-.card h3{margin:0 0 4px;font-size:1.05rem}
-.card p{margin:0}
+.links a{margin-right:14px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column}
+.card p{font-size:.95rem}
+.card ul{margin:0 0 12px;padding-left:18px;font-size:.92rem}
+.card .go{margin-top:auto;font-weight:600;text-decoration:none}
+.tag{display:inline-block;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:4px}
+.role{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin:0 0 18px}
+.role ul{margin:4px 0 0;padding-left:18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{background:var(--chip);color:var(--chipfg);border-radius:999px;padding:2px 10px;font-size:.85rem}
 footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
 </style>
 </head>
 <body>
 <main>
+
 <h1>Daniel Vöckler</h1>
 <p class="muted">CTO · Founder · Enterprise Architect · Basel, Switzerland</p>
+<p class="links">
+  <a href="https://www.linkedin.com/in/daniel-voeckler">LinkedIn</a>
+  <a href="https://github.com/dickdoof">GitHub</a>
+  <a href="https://fin-hero.de/">finHero</a>
+  <a href="https://sepaheld.com/">SepaHeld</a>
+  <a href="https://www.nps-hero.com/">NPS-Hero</a>
+  <a href="https://planningpokeronline.org/">Planning Poker Online</a>
+</p>
 
-<p>20+ years building SaaS, fintech and pharma systems: real-time payments at PostFinance,
-enterprise architecture at Suva, and founder and CTO of the VC-backed workflow SaaS
-Flowers-Software.</p>
+<p>Technology leader with <strong>20+ years</strong> in SaaS, fintech, pharma and digital
+transformation. As founder of Flowers-Software I raised VC funding from La Famiglia, LEA Partners,
+Carsten Thoma and others. I build scalable platforms, lead cross-functional teams and take
+products from concept to production.</p>
 
-<h2>What I'm building</h2>
+<h2>Products</h2>
+<div class="grid">
 
-<div class="card">
-  <h3><a href="https://fin-hero.de/">finHero – Stripe to DATEV export</a></h3>
-  <p>Automatic <a href="https://fin-hero.de/knowledge/stripe-datev-export/">Stripe DATEV export</a>
-  for German, Austrian and Swiss companies. It covers bookings, fees, refunds, payouts,
-  receipts and PRAP. Guide:
-  <a href="https://fin-hero.de/knowledge/stripe-buchhaltung-deutschland-datev/">Stripe Buchhaltung in Deutschland</a>.
-  There's also a <a href="https://dickdoof.github.io/finhero-plugins/">Claude plugin for DATEV exports</a>.</p>
+  <div class="card">
+    <span class="tag">Accounting · DE / AT / CH</span>
+    <h3><a href="https://fin-hero.de/">finHero – Stripe to DATEV export</a></h3>
+    <p>Exports payment-provider transactions straight into the accounting system. It replaces
+    manual CSV work at month-end.</p>
+    <ul>
+      <li>Stripe, PayPal, Mollie, Adyen, Paddle, Lemon Squeezy</li>
+      <li>DATEV Buchungsstapel, BMD, bexio, Abacus</li>
+      <li>Fees, refunds, payouts, receipts and PRAP for subscriptions</li>
+      <li><a href="https://dickdoof.github.io/finhero-plugins/">Claude plugin</a>: exports from a single sentence</li>
+    </ul>
+    <p>Guide: <a href="https://fin-hero.de/knowledge/stripe-buchhaltung-deutschland-datev/">Stripe Buchhaltung in Deutschland</a></p>
+    <a class="go" href="https://fin-hero.de/">fin-hero.de →</a>
+  </div>
+
+  <div class="card">
+    <span class="tag">Payments · SEPA</span>
+    <h3><a href="https://sepaheld.com/">SepaHeld – SEPA direct debit for your accounting software</a></h3>
+    <p>Collects open invoices by SEPA direct debit through GoCardless. Mandates are created
+    automatically, and payments are booked back to the invoice.</p>
+    <ul>
+      <li>Lexware Office, sevdesk, MOCO, Xentral, WISO MeinBüro</li>
+      <li>Recurring and one-off invoices, installment invoices</li>
+      <li>Set up in about 5 minutes, free trial</li>
+    </ul>
+    <a class="go" href="https://sepaheld.com/">sepaheld.com →</a>
+  </div>
+
+  <div class="card">
+    <span class="tag">Customer feedback</span>
+    <h3><a href="https://www.nps-hero.com/">NPS-Hero – Net Promoter Score surveys</a></h3>
+    <p>Measures customer loyalty with Net Promoter Score surveys. Set up a survey, collect
+    scores and follow the trend.</p>
+    <ul>
+      <li>Quick NPS collection with customizable surveys</li>
+      <li>Embeds in your own product via an <a href="https://www.npmjs.com/~d-automation">npm package</a></li>
+    </ul>
+    <a class="go" href="https://www.nps-hero.com/">nps-hero.com →</a>
+  </div>
+
+  <div class="card">
+    <span class="tag">Agile teams</span>
+    <h3><a href="https://planningpokeronline.org/">Planning Poker Online – estimation & retros</a></h3>
+    <p>Sprint estimation and retrospectives for remote teams, right in the browser.</p>
+    <ul>
+      <li>Planning poker sessions to estimate stories together</li>
+      <li>Retro boards with password protection</li>
+      <li>Messages are encrypted in the browser before they are stored</li>
+    </ul>
+    <a class="go" href="https://planningpokeronline.org/">planningpokeronline.org →</a>
+  </div>
+
 </div>
 
-<div class="card">
-  <h3><a href="https://sepaheld.com/">SepaHeld – SEPA direct debit for your ERP</a></h3>
-  <p>Collects SEPA direct debits straight from your ERP via GoCardless. It's event-driven
-  on Kafka and integrates multiple ERP platforms.</p>
+<h2>Experience</h2>
+
+<div class="role">
+  <h3>Solution Architect / Lead Developer · PostFinance AG</h3>
+  <p class="muted">2023 – now · Swiss financial institution, 3B+ transactions per year</p>
+  <ul>
+    <li>Leading the migration of the real-time transaction system to Kafka and Kubernetes</li>
+    <li>Team lead of 15 specialists; introduced Arc42, DDD and CI/CD practices</li>
+  </ul>
 </div>
 
-<div class="card">
-  <h3><a href="https://www.nps-hero.com/">NPS-Hero – Net Promoter Score surveys</a></h3>
-  <p>Measure customer loyalty and collect feedback with NPS surveys.</p>
+<div class="role">
+  <h3>Enterprise Architect & Advisor · Suva</h3>
+  <p class="muted">2025 – now · Swiss National Accident Insurance</p>
+  <ul>
+    <li>Modernization of enterprise systems and digital transformation strategy</li>
+    <li>Scalable architectures for high-availability insurance services</li>
+    <li>Advising executive leadership on IT strategy, system alignment and security</li>
+  </ul>
 </div>
 
-<h2>Focus</h2>
-<p>Microservices, DDD and event-driven design with Kafka · Java/Spring Boot, React/Next.js,
-Python · AWS, Kubernetes, Terraform · CI/CD and team leadership.</p>
+<div class="role">
+  <h3>Founder & CTO · Flowers-Software</h3>
+  <p class="muted">2019 – 2023 · Enterprise-grade workflow SaaS for SMBs</p>
+  <ul>
+    <li>Scaled the team to 17+ engineers on a microservices architecture on AWS</li>
+    <li>Raised VC funding; led full-stack development (Java, React, Kafka, Terraform)</li>
+  </ul>
+</div>
+
+<div class="role">
+  <h3>Team Lead & Architect · <a href="https://sepaheld.com/">SepaHeld</a></h3>
+  <p class="muted">2023 · Automated ERP → GoCardless SEPA integration</p>
+  <ul>
+    <li>Event-driven architecture on Kafka; integrated multiple ERP platforms</li>
+  </ul>
+</div>
+
+<div class="role">
+  <h3>COO · Swiss Pharma Group</h3>
+  <p class="muted">2009 – 2019</p>
+  <ul>
+    <li>Drove digital transformation and Industry 4.0 practices; built MES and QA systems</li>
+    <li>Cut production costs by 15%; improved quality and uptime by 20–25%</li>
+  </ul>
+</div>
+
+<h2>Core strengths</h2>
+<div class="grid">
+  <div><strong>Leadership</strong><p class="muted">10+ years as CTO, COO and architect; hiring and mentoring teams.</p></div>
+  <div><strong>Architecture</strong><p class="muted">Microservices, DDD, REST, Kafka, event-driven design.</p></div>
+  <div><strong>Stack</strong><p class="muted">Java (Spring Boot, Kotlin), React/Next.js, Python, AWS, Terraform.</p></div>
+  <div><strong>DevOps</strong><p class="muted">CI/CD (GitLab, Bitbucket), Kubernetes, Docker, monitoring.</p></div>
+  <div><strong>AI & ML</strong><p class="muted">Built a pre-ChatGPT SaaS with NLP, RPA, TensorFlow and Selenium.</p></div>
+  <div><strong>Cloud</strong><p class="muted">AWS (ECS, Lambda, S3, RDS, IAM), Heroku, Azure.</p></div>
+</div>
+
+<h2>Toolbox</h2>
+<div class="chips">
+  <span>Java</span><span>Spring Boot</span><span>Kafka Streams</span><span>React</span><span>TypeScript</span><span>Python</span>
+  <span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>OpenSearch</span><span>Terraform</span><span>GitLab CI/CD</span>
+  <span>Kubernetes</span><span>AWS</span><span>Jenkins</span><span>Cypress</span><span>JUnit</span><span>Mockito</span>
+  <span>GraphQL</span><span>OAuth2</span><span>OpenAPI</span><span>TDD</span>
+</div>
+
+<h2>Industries</h2>
+<p class="muted">SaaS · Fintech · Marketing Tech · Pharma · Manufacturing · Workflow Automation</p>
 
 <footer>
+  <a href="https://www.linkedin.com/in/daniel-voeckler">LinkedIn</a> ·
   <a href="https://github.com/dickdoof">GitHub</a> ·
   <a href="https://fin-hero.de/">finHero</a> ·
   <a href="https://sepaheld.com/">SepaHeld</a> ·
-  <a href="https://www.nps-hero.com/">NPS-Hero</a>
+  <a href="https://www.nps-hero.com/">NPS-Hero</a> ·
+  <a href="https://planningpokeronline.org/">Planning Poker Online</a>
 </footer>
 </main>
 </body>
